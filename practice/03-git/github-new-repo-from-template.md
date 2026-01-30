@@ -14,7 +14,7 @@ https://github.com/new?owner=YOUR_USERNAME&template_name=secure-repository-suppl
 2. Replace `YOUR_REPO_NAME` with the desired name for your new repository
 3. Optionally change `visibility=public` to `visibility=private` if you want a private repository
 4. Copy the complete URL and paste it into your browser
-5. GitHub will open the repository creation page with the template pre-selected
+5. GitHub will open the repositqory creation page with the template pre-selected
 
 ## Example
 
