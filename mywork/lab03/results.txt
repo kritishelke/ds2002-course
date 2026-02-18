@@ -1,0 +1,4 @@
+The search pattern  was found  time(s).
+
+Line(s) where the pattern was found:
+
