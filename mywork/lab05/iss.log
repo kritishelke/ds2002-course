@@ -1,0 +1,61 @@
+2026-03-09 13:56:29,298 ERROR __main__: Database connection error: 1045 (28000): Access denied for user 'ds2002'@'172.191.151.48' (using password: YES)
+2026-03-09 14:02:44,112 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:02:55,480 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:02:55 UTC  -48.1519  -123.9228  2026-03-09 18:02:55 UTC  2026      3    9    18       2      55
+2026-03-09 14:02:55,509 INFO __main__: ISS location inserted.
+2026-03-09 14:02:55,510 INFO __main__: Database connection closed.
+2026-03-09 14:02:56,101 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:02:56,241 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:02:55 UTC  -48.1638  -123.8799  2026-03-09 18:02:55 UTC  2026      3    9    18       2      55
+2026-03-09 14:02:56,265 INFO __main__: ISS location inserted.
+2026-03-09 14:02:56,265 INFO __main__: Database connection closed.
+2026-03-09 14:02:56,906 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:02:57,062 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:02:56 UTC  -48.1873  -123.7939  2026-03-09 18:02:56 UTC  2026      3    9    18       2      56
+2026-03-09 14:02:57,087 INFO __main__: ISS location inserted.
+2026-03-09 14:02:57,087 INFO __main__: Database connection closed.
+2026-03-09 14:02:57,627 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:02:57,754 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:02:57 UTC   -48.199  -123.7509  2026-03-09 18:02:57 UTC  2026      3    9    18       2      57
+2026-03-09 14:02:57,782 INFO __main__: ISS location inserted.
+2026-03-09 14:02:57,783 INFO __main__: Database connection closed.
+2026-03-09 14:02:58,307 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:00,484 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:00 UTC  -48.2691  -123.4924  2026-03-09 18:03:00 UTC  2026      3    9    18       3       0
+2026-03-09 14:03:00,520 INFO __main__: ISS location inserted.
+2026-03-09 14:03:00,520 INFO __main__: Database connection closed.
+2026-03-09 14:03:01,214 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:01,350 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:01 UTC  -48.2924   -123.406  2026-03-09 18:03:01 UTC  2026      3    9    18       3       1
+2026-03-09 14:03:01,378 INFO __main__: ISS location inserted.
+2026-03-09 14:03:01,378 INFO __main__: Database connection closed.
+2026-03-09 14:03:01,927 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:02,069 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:01 UTC   -48.304  -123.3628  2026-03-09 18:03:01 UTC  2026      3    9    18       3       1
+2026-03-09 14:03:02,097 INFO __main__: ISS location inserted.
+2026-03-09 14:03:02,097 INFO __main__: Database connection closed.
+2026-03-09 14:03:02,665 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:03,810 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:03 UTC  -48.3386  -123.2331  2026-03-09 18:03:03 UTC  2026      3    9    18       3       3
+2026-03-09 14:03:03,848 INFO __main__: ISS location inserted.
+2026-03-09 14:03:03,848 INFO __main__: Database connection closed.
+2026-03-09 14:03:04,382 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:04,539 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:04 UTC  -48.3616  -123.1465  2026-03-09 18:03:04 UTC  2026      3    9    18       3       4
+2026-03-09 14:03:04,562 INFO __main__: ISS location inserted.
+2026-03-09 14:03:04,563 INFO __main__: Database connection closed.
+2026-03-09 14:03:05,299 INFO __main__: Reporter already exists. Skipping insert.
+2026-03-09 14:03:05,427 INFO __main__: 
+                 timestamp  latitude  longitude                 datetime  year  month  day  hour  minute  second
+0  2026-03-09 18:03:05 UTC  -48.3846  -123.0598  2026-03-09 18:03:05 UTC  2026      3    9    18       3       5
+2026-03-09 14:03:05,453 INFO __main__: ISS location inserted.
+2026-03-09 14:03:05,454 INFO __main__: Database connection closed.

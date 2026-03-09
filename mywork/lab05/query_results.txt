@@ -1,0 +1,11 @@
+title	genre	reviewer_name	rating	review_text
+Inception	Sci-Fi	name1	5	Amazing concept and visuals.
+The Dark Knight	Action	name2	5	One of the best superhero movies ever.
+Interstellar	Sci-Fi	name3	4	Very emotional and thought-provoking.
+Parasite	Thriller	name4	5	Brilliant social commentary.
+La La Land	Musical	name5	4	Beautiful music and cinematography.
+Titanic	Romance	name6	4	Classic romance with unforgettable scenes.
+Avengers: Endgame	Superhero	name7	5	Epic ending to the Marvel saga.
+Get Out	Horror	name8	5	Creepy, smart, and original.
+The Grand Budapest Hotel	Comedy	name9	4	Stylish and fun movie.
+Spirited Away	Animation	name10	5	A magical animated masterpiece.
