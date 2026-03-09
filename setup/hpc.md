@@ -7,7 +7,7 @@ title: HPC Access
 
 The UVA High Performance Computing (HPC) systems (Rivanna and Afton) are accessible through a web portal, secure shell terminals, or a remote desktop environment. See the <a href="https://www.rc.virginia.edu/userinfo/hpc/login/" target="_blank" rel="noopener noreferrer">official documentation</a>.
 
-**Service Unit Allocation:** The course is using the `ds2002` allocation. You will need to enter `ds2002` in the allocation field when requesting access to an interactive Open OnDemand session (like Desktop or JupyterLab), or when submitting compute jobs (you'll learn about this in Module 3).
+**Service Unit Allocation:** The course is using the `ds2002` allocation. You will need to enter `ds2002` in the allocation field when requesting access to an interactive Open OnDemand session (like Code Server (VSCode), JupyterLab, Desktop), or when submitting compute jobs (you'll learn about this in Module 3).
 
 ## Login via Web Browser
 
@@ -19,9 +19,55 @@ To start the Open OnDemand web client, go to <a href="https://ood.hpc.virginia.e
 
 ![Open OnDemand portal](../docs/images/ood.png)
 
-Proceed with [Step 2a](#step-2a-jupyterlab) or [Step 2b](#step-2b-linux-desktop).
+Proceed with one of these options:
 
-### Step 2a: JupyterLab 
+[Step 2a: VSCode](#step-2a-vscode)
+
+[Step 2b: JupyterLab](#step-2b-jupyterlab)
+
+[Step 2c: Linux Desktop](#step-2c-linux-desktop)
+
+### Step 2a: VSCode
+
+1. On the top right of the menu bar of the Open OnDemand dashboard, click on `Interactive Apps`.
+2. In the drop-down box, click on `Code Server` (that's VSCode).
+
+**Enter `ds2002` in the allocation field.**
+
+The form should look like this:
+
+![OOD interactive session request](../docs/images/ood-vscode-request.png)
+
+After you click `Launch` it may take a few minutes to start up. This is expected as we are sharing the cluster with hundreds of other users.
+
+When ready, click the `Connect to VSCode` button.
+
+![Open OnDemand Code Server](../docs/images/ood-vscode.png)
+
+If this is your first time using VSCode on UVA's HPC system, click `Clone GitHub repository` in the Welcome window and follow the instructions. Use the url for your **fork of the course repository**, and authorize connection to GitHub. When asked, choose your home directory on the cluster (/home/YOUR_COMPUTING_ID) as destination for the cloned repo.  
+
+#### Python Setup
+
+If this is your first time using VSCode on UVA's HPC system, follow these steps to set up your Python environment:
+
+1. In VSCode switch to the top level folder `ds2002-course` of your repository (`File` > `Open Folder`). 
+   
+2. Open a terminal in VSCode. Confirm with `pwd` that you're at the top level of your Git repo.
+
+3. Run the following commands to set up a new Python environment:
+   ```bash
+   module load miniforge
+   mamba env create -f environment.yml
+   ```
+   This will create a new Python environment named `ds2002`. This environment is isolated from other Python installation on the cluster.
+
+**Note: In order to use the new Python environment you have to run these commands in the terminal:**
+```bash
+module load miniforge
+source activate ds2002
+```
+
+### Step 2b: JupyterLab 
 
 Follow the <a href="https://www.rc.virginia.edu/userinfo/hpc/software/jupyterlab/" target="_blank" rel="noopener noreferrer">Open OnDemand JupyterLab</a> instructions.
 
@@ -35,7 +81,7 @@ After you click `Launch` it may take a few minutes to start up. This is expected
 
 ![Open OnDemand JupyterLab](../docs/images/ood-jlab.png)
 
-### Step 2b: Linux Desktop 
+### Step 2c: Linux Desktop 
 
 Follow the <a href="https://www.rc.virginia.edu/userinfo/hpc/ood/desktop/" target="_blank" rel="noopener noreferrer">Open OnDemand Desktop</a> instructions.
 
