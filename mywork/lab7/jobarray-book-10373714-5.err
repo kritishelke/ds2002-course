@@ -1,0 +1,5 @@
+
+EnvironmentNameNotFound: Could not find conda environment: ds2002
+You can list all discoverable environments with `conda info --envs`.
+
+

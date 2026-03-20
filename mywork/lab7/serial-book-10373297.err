@@ -1,0 +1,15 @@
+
+EnvironmentNameNotFound: Could not find conda environment: ds2002
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/home/bae7kx/ds2002-course/labs/07-hpc/process-book.py", line 89, in <module>
+    main()
+  File "/home/bae7kx/ds2002-course/labs/07-hpc/process-book.py", line 83, in main
+    total_tokens, unique_words = process_file(input_path, output_path)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bae7kx/ds2002-course/labs/07-hpc/process-book.py", line 66, in process_file
+    with open(input_path, encoding="utf-8", errors="replace") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/bae7kx/ds2002-jobruns/text-analysis/book-.txt'
