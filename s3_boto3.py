@@ -72,5 +72,3 @@ except ClientError as e:
     print("Could not list bucket contents:", e)
 
  s3 = boto3.client('s3', region_name='us-east-1')
-
-
